@@ -20,11 +20,12 @@ Gem::Specification.new do |s|
   s.summary = "Jenkins JSON API Client"
   s.licenses = ["MIT"]
 
-  s.add_dependency 'nokogiri', '~> 1.8.5'
+  s.add_dependency 'nokogiri', '~> 1.10.4'
   s.add_dependency 'thor', '>= 0.16.0'
   s.add_dependency 'terminal-table', '>= 1.4.0'
   s.add_dependency 'mixlib-shellout', '>= 1.1.0'
   s.add_dependency 'socksify', '>= 1.7.0'
   s.add_dependency 'json', '>= 1.0'
 end
+
 
